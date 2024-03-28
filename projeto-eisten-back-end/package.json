@@ -1,0 +1,21 @@
+{
+  "name": "projeto-eisten-back-end",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/multipart": "^8.2.0",
+    "fastify": "^4.26.2",
+    "fastify-multipart": "^5.4.0",
+    "xlsx": "^0.18.5"
+  }
+}
