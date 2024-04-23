@@ -20,9 +20,9 @@ npm run dev
 
 ## Funcionamento
 
-Para o front utilizei a validação de arquivos e campos de formulários utilizando o React Hook Form e o Zod, também fiz o projeto utilizando o TailwindCss que facilitia muita na construção mais rápida.
+Para o front utilizei a validação de arquivos e campos de formulários utilizando o React Hook Form e o Zod, também fiz o projeto utilizando o TailwindCss que facilita muito na construção mais rápida de componentes estilizados.
 
-Já no back-end, enfrentei alguns desafios por ainda não ter tido que desenvolver diretamente com arquivos, mas utilizei o Fastify junto com algumas bibliotecas nativas do Node como o xlsx.
+Já no back-end, enfrentei alguns desafios por ainda não ter tido que desenvolver diretamente com manipulação de arquivos, mas utilizei o Fastify junto com algumas bibliotecas nativas do Node como o xlsx.
 
 Trabalhei com os métodos de leitura de arquivo do módulo de file system também, e posteriormente o xlsx pra transformar para json. Perecebi que o nome das colunas que eu recebia não era muito adequado pra estar trabalhando, então acabei renomeando pra facilitar
 
